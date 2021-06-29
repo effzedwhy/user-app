@@ -1,0 +1,56 @@
+.form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  color: white;
+}
+
+.username-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 400px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.username {
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.age-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 400px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.age {
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+.form-button{
+  border-radius: 12px;
+  padding: 12px;
+  background-color: rgb(228, 228, 228);
+  border: none;
+  box-shadow: 2px 4px 40px -1px rgb(172, 172, 172);
+  margin: 20px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: rgb(39, 84, 85);
+}
+.form-button:hover {
+color: white;
+background-color: rgb(12, 62, 63);
+box-shadow: none;
+}
