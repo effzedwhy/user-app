@@ -7,7 +7,7 @@ function NewUser (props) {
       <ul>
         {props.users.map((data) => (
           <li className="list">
-            {data.name}({data.age} years old)
+            {data.name} ({data.age} years old)
           </li>
         ))}
       </ul>
